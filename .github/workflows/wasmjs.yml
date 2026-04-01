@@ -37,7 +37,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
         with:
-          path: ./example/wasmJs/build/dist/wasmJs/productionExecutable
+          path: ./example/web/build/dist/wasmJs/productionExecutable
 
   deploy:
     environment:
