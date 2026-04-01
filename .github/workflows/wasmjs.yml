@@ -31,7 +31,7 @@ jobs:
         uses: gradle/actions/setup-gradle@v6
       - name: Build WasmJs Distribution
         run: |
-          ./gradlew :example:wasmJs:wasmJsBrowserDistribution
+          ./gradlew :example:web:wasmJsBrowserDistribution
       - name: Setup Pages
         uses: actions/configure-pages@v6
       - name: Upload artifact
